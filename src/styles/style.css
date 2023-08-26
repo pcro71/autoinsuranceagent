@@ -1,0 +1,71 @@
+.app {
+  text-align: center;
+  padding: 20px;
+}
+
+input {
+  margin: 5px;
+}
+
+button {
+  margin: 10px;
+  border-radius: 20px;
+}
+
+.button-container {
+  display: inline-block; /* or inline-flex */
+  margin-right: 10px; /* Adjust as needed */
+  border-radius: 20px;
+}
+
+.input-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.input-container input {
+  margin: 5px;
+  padding: 10px;
+}
+
+/* Add your other styles as needed */
+.selection-button {
+  border: none;
+  background-color: #3498db; /* Light blue color */
+  color: #ffffff; /* White text color */
+  padding: 10px 20px;
+  margin: 5px;
+  border-radius: 20px;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+  cursor: pointer;
+  transition: background-color 0.3s, box-shadow 0.3s;
+}
+
+.selection-button:hover {
+  background-color: #2c81ba; /* Slightly darker shade on hover */
+}
+
+.selection-button.selected {
+  background-color: #2ecc71; /* Green color for selected button */
+  color: #ffffff; /* White text color */
+  box-shadow: none; /* Remove shadow when selected */
+}
+
+.input-container-dateofbirth {  /* <-- New class name for date of birth inputs */
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+}
+
+.input-container-dateofbirth select {
+  padding-right: 10px;
+}
+
+.input-container-dateofbirth label {
+  margin-left: 10px;
+}
+
+
